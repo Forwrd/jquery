@@ -67,6 +67,7 @@
   },
   "scripts": {
     "build": "npm install && grunt",
+    "mini": "grunt custom:-ajax,-depricated,-wrap,-effects",
     "start": "grunt watch",
     "test:browserless": "grunt && grunt test:slow",
     "test:browser": "grunt && grunt karma:main",
